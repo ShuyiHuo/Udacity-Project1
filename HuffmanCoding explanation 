@@ -1,0 +1,11 @@
+A Huffman code is a type of optimal prefix code that is used for compressing data. The Huffman encoding and decoding schema is also lossless, meaning that when compressing the data to make it smaller, there is no loss of information. I use the node to buil the tree to store the information, and encoding and decoding the data. I follow these steps to code which given by Udacity: 
+
+1. Take a string and determine the relevant frequencies of the characters.
+2. Build and sort a list of tuples from lowest to highest frequencies.
+3. Build the Huffman Tree by assigning a binary code to each letter, using shorter codes for the more frequent letters. (This is the heart of the Huffman algorithm.)
+4. Trim the Huffman Tree (remove the frequencies from the previously built tree).
+5. Encode the text into its compressed form.
+6. Decode the text from its compressed form.
+
+
+It will spent O(nlogn) times since it need to traverses the whole tree using recursion to encoding and decoding, and space complexity is O(nm) if the maximun of depth of recursion tree is m.

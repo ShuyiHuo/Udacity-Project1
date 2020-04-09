@@ -1,0 +1,3 @@
+A Blockchain is a sequential chain of records, similar to a linked list. Each block contains some information and how it is connected related to the other blocks in the chain. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. For our blockchain we will be using a SHA-256 hash, the Greenwich Mean Time when the block was created, and text strings as the data.
+
+My BlockChain class has head attribute and append and toList function. I get the idea form LinkList class which given by Udacity course. The time and space complexity is O(n) since using while loop in toList function. 

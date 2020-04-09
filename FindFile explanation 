@@ -1,0 +1,3 @@
+For this problem, the goal is to write code for finding all files under a directory (and all directories beneath it) that end with a “.c" extension. My idea is using recursion to traverse the file hierarchy tree and then print out the path. 
+
+It will spent O(nlogn) times since it need to traverses the file hierarchy using recursion and space complexity is O(nm) if the maximun of depth of recursion tree is m.

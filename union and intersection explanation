@@ -1,0 +1,3 @@
+The goal for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B. I use the set to store the value from linkList because the methon of add from set will not add the duplicated value and set also have function of intersection and union. Then, I use for-loop to transform to linkList. 
+
+The time and space complexity is O(n) since using for loop traverse the two linkLists. 
